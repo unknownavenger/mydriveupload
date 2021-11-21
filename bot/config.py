@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = "2081902244:AAF6d1P9Ak4fHwhrEQ1ZRZpvfQ3NTKJ8BIM"
+    APP_ID = "18584875"
+    API_HASH = "5d9cc4ec348031e2b32490ff3d8dc40e"
+    DATABASE_URL = "postgres://fhffyrgxuwnoox:d75760c96e523da1602880787b2fc7c53da95c26e39a2a87e2f3cb976547bbf0@ec2-18-214-140-149.compute-1.amazonaws.com:5432/d2empd481vp8ul"
+    SUDO_USERS = "1682767082 1290751149 1237643807" # Sepearted by space.
+    SUPPORT_CHAT_LINK = "https://t.me/joinchat/cP_cQ3V_K-AwOGI1"
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
+    G_DRIVE_CLIENT_ID = "774136663234-h1i3mji9vj0t8k3bkeeqbpr27jsqvjv4.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
 
 
 class BotCommands:
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Tharshikan Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
@@ -47,15 +47,15 @@ class Messages:
     
     INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **Copied successfully to my drive.**\n[{}]({}) __({})__"
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
     DOWNLOADED_SUCCESSFULLY = "📤 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **Uploaded Successfully to https://pjalwalsindex.priyanshujalwal.workers.dev/0:/THARSHIKAN%20MASS%202003 Thank you for using thrshikan.**\n[{}]({}) __({})__"
     
-    DOWNLOAD_ERROR = "❗**Downloader Failed**\n{}\n__Link - {}__"
+    DOWNLOAD_ERROR = "❗**Downloader Failed are you fucker**\n{}\n__Link - {}__"
     
     DOWNLOADING = "📥 **Downloading File...\nLink:** ```{}```"
     
@@ -63,7 +63,7 @@ class Messages:
     
     FLOW_IS_NONE = f"❗ **Invalid Code**\n__Run {BotCommands.Authorize[0]} first.__"
     
-    AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully.**'
+    AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully enjoy enjaami.**'
     
     INVALID_AUTH_CODE = '❗ **Invalid Code**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
     
@@ -81,7 +81,7 @@ class Messages:
     
     NOT_FOLDER_LINK = "❗ **Invalid folder link.**\n__The link you send its not belong to a folder.__"
     
-    CLONING = "🗂️ **Cloning into Google Drive...**\n__G-Drive Link - {}__"
+    CLONING = "🗂️ **Cloning into Google Drive enjoy THARSHIKAN...**\n__G-Drive Link - {}__"
     
     PROVIDE_GDRIVE_URL = "**❗ Provide a valid Google Drive URL along with commmand.**\n__Usage - /{} (GDrive Link)__"
     
